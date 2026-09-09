@@ -66,6 +66,9 @@ $f(x)$
 
 
 ## Curious Readers
-
+- [quantum Computing: IBM Courses](https://quantum.cloud.ibm.com/learning/en/courses)
+- [QC in Materials simulation - Latest results from Q-CTRL](https://q-ctrl.com/blog/q-ctrl-delivers-3-000x-speedup-in-materials-discovery-for-the-energy-sector-with-quantum-computing-and-demonstrates-evidence-of-practical-quantum-advantage?utm_source=chatgpt.com)
+- [Trusted Quantum Computation on Logical Circuits](https://newsroom.ibm.com/2026-07-30-ibm-and-the-university-of-chicago-demonstrate-quantum-advantage,-establishing-trusted-quantum-computation-on-logical-circuits?utm_source=chatgpt.com)
+- [Introduction to Quantum Machine Learning](https://quantum.cloud.ibm.com/learning/en/courses/quantum-machine-learning/introduction)
 - [Quantum machine learning for data scientists
 ](https://arxiv.org/abs/1804.10068)
