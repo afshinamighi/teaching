@@ -153,7 +153,7 @@ $$
 
 The second qubit is flipped because $y\oplus1=\neg y$
 
-We can therefore describe the behaviour of the oracle as: If $x=0$, leave $y$ unchanged. If $x=1$, flip $y$.
+We can therefore describe the behaviour of the oracle as: If $x=0$, leave $y$ unchanged, but if $x=1$, flip $y$.
 
 This is exactly the behaviour of a CNOT gate with $x$ as the control qubit and $y$ as the target qubit.
 
