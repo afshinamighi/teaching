@@ -204,7 +204,7 @@ Therefore, the oracle for $f_0$ is simply the identity operation: $U_{f_0}=I$.
 No gate is required to change either qubit.
 
 Again, we can see the three levels clearly:
-from $f_0(x)=0$, we concluded $U_{f_0}\ket{x,y}=\ket{x,y\oplus0}=\ket{x,y}$ and then we chose the Identity operation (does nothing).
+from $f_0(x)=0$, we concluded $U_{f_0}\ket{x,y}=\ket{x,y\oplus0}=\ket{x,y}$ and then we chose the Identity operation.
 
 **Exercise:** Follow the same steps and define $U_{f_1}$ and $U_{f_3}$. Then, implement the oracles with proper quantum gates.
 
