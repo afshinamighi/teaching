@@ -6,7 +6,7 @@ The goal of this part is to make a clear connection between three ideas that can
 
 In the Deutsch problem, we are given a function 
 $$
-f:\left\{ 0,1 \right\} \rightarrow \left\{ 0,1 \right\}
+f:\left\{ 0,1 \right\} \to \left\{ 0,1 \right\}
 $$
 
 The function accepts one bit as input and produces one bit as output. Since the input can only be $0$ or $1$, there are exactly four possible functions:
