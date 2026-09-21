@@ -4,7 +4,11 @@ The goal of this part is to make a clear connection between three ideas that can
 
 ### The Function $f$
 
-In the Deutsch problem, we are given a function $f: \\{0,1\\} \to \{0,1\}$
+In the Deutsch problem, we are given a function 
+
+$$
+f: \lbrace 0,1 \rbrace \to \lbrace 0,1 \rbrace
+$$
 
 The function accepts one bit as input and produces one bit as output. Since the input can only be $0$ or $1$, there are exactly four possible functions:
 
