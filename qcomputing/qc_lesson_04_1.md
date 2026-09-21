@@ -206,11 +206,7 @@ No gate is required to change either qubit.
 Again, we can see the three levels clearly:
 from $f_0(x)=0$, we concluded $U_{f_0}\ket{x,y}=\ket{x,y\oplus0}=\ket{x,y}$ and then we chose the Identity operation (does nothing).
 
-Exercises: Constructing the Remaining Oracles
-
-We have now constructed the oracle for one balanced function, $f_2$, and one constant function, $f_0$. Try to construct the remaining two yourself.
-
-Exercise 1: Follow the same steps and define $U_{f_1}$ and $U_{f_3}$. Then, implement the oracles with proper quantum gates.
+**Exercise:** Follow the same steps and define $U_{f_1}$ and $U_{f_3}$. Then, implement the oracles with proper quantum gates.
 
 ## Summary 
 
