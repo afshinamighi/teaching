@@ -9,7 +9,9 @@ In this brief introductory course, a collection of self-contained learning mater
 2. [Beyond Binary: The Evolution from Classical Bits to Qubits](qc_lesson_02.ipynb)
 3. [The Quantum Pair: The Dance of Two Entangled Qubits](qc_lesson_03.ipynb)
 4. [From Classical Limits to Quantum Power: Deutsch’s Two-Qubit Solution](qc_lesson_04.ipynb)
-   
+
+5. [Behind Quantum Power: Parallelism and Phase Kickback](qc_lesson_05.ipynb)
+
 
 ### Required Background
 
