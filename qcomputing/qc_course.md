@@ -37,7 +37,7 @@ After successfully completing this course, the student can:
 1. Represent and manipulate simple one- and two-qubit quantum states using computational basis notation and the $X$, $H$, and CNOT gates, and construct and execute the corresponding quantum circuits using Qiskit.
 2. Explain and demonstrate how Deutsch’s algorithm uses quantum computational principles—particularly superposition, quantum parallelism, and phase kickback to distinguish constant from balanced functions using fewer oracle queries than a deterministic classical approach.
 
-### Six-Week Programme
+## Six-Week Programme
 
 #### Week 1 — From Classical Bits to Qubits
 
