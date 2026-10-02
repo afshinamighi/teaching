@@ -24,7 +24,7 @@ This elective is designed for students with a software engineering or computer s
 
 No previous knowledge of quantum mechanics or quantum computing is expected. The emphasis is on computational thinking and experimentation rather than on the underlying physics.
 
-Required Background
+### Required Background
 
 Students are expected to be comfortable with basic programming in Python and with fundamental concepts from classical computing, including bits, Boolean operations, and functions.
 
