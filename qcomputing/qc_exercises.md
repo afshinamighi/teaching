@@ -1,8 +1,6 @@
-qc_exercises
+# Exercises: Quantum State Algebra
 
-20 Ket-Algebra Exercises
-
-Single-qubit — fundamentals
+### Single-qubit — fundamentals
 
 1. Write $\ket{0}$ and $\ket{1}$ as column vectors.
 2. Expand the following state in the computational basis: $\ket{+}=\frac{1}{\sqrt{2}}(\ket{0}+\ket{1})$
@@ -39,7 +37,7 @@ Single-qubit — fundamentals
     $
     Are the results the same?
 
-Two-qubit — tensor products and gates
+### Two-qubit — tensor products and gates
 
 9. Expand the following state completely in the two-qubit computational basis:
     $
@@ -85,13 +83,9 @@ Two-qubit — tensor products and gates
     $
     Do not perform matrix multiplication. Instead, use the known actions of $X$ and $H$ on $\ket{0}$ and $\ket{1}$.
 
-Three-qubit — combining the techniques
+### Three-qubit — combining the techniques
 
-For the following exercises, use the ordering
-
-$
-\ket{q_0q_1q_2}.
-$
+For the following exercises, use the ordering $\ket{q_0q_1q_2}$
 
 17. Expand completely:
     $
