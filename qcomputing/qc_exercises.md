@@ -3,38 +3,23 @@
 ### Single-qubit — fundamentals
 
 1. Write $\ket{0}$ and $\ket{1}$ as column vectors.
+
 2. Expand the following state in the computational basis: $\ket{+}=\frac{1}{\sqrt{2}}(\ket{0}+\ket{1})$
     Then write it as a column vector.
 
 3. Starting from the definition of $X$, calculate: $X\ket{0},\qquad X\ket{1}$.
+
 4.  Calculate and simplify: $X\left(\frac{1}{\sqrt{2}}(\ket{0}+\ket{1})\right)$.
-5. Calculate and simplify:
-    $
-    X\left(\frac{1}{\sqrt{2}}(\ket{0}-\ket{1})\right).
-    $
+
+5. Calculate and simplify:$X\left(\frac{1}{\sqrt{2}}(\ket{0}-\ket{1})\right)$.
     Express your answer using $\ket{+}$ or $\ket{-}$ if possible.
-6. Using
-    $
-    H\ket{0}=\frac{\ket{0}+\ket{1}}{\sqrt{2}},
-    \qquad
-    H\ket{1}=\frac{\ket{0}-\ket{1}}{\sqrt{2}},
-    $
-    calculate:
-    $
-    H\ket{+}.
-    $
-7. Calculate and simplify:
-    $
-    H\ket{-}.
-    $
-8. Work from right to left and calculate:
-    $
-    HX\ket{0}.
-    $
-    Then calculate
-    $
-    XH\ket{0}.
-    $
+
+6. Using $H\ket{0}=\frac{\ket{0}+\ket{1}}{\sqrt{2}}$ and $H\ket{1}=\frac{\ket{0}-\ket{1}}{\sqrt{2}}$
+    calculate: $H\ket{+}$
+
+7. Calculate and simplify:$H\ket{-}$.
+
+8. Work from right to left and calculate: $HX\ket{0}$. Then calculate $XH\ket{0}$.
     Are the results the same?
 
 ### Two-qubit — tensor products and gates
