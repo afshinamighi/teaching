@@ -97,6 +97,8 @@ The final week revisits Deutsch’s algorithm to understand more deeply why it w
 
 **Practice:** inspecting intermediate quantum states, experimenting with phase kickback using $\ket{-}$, tracing the effect of different oracles, and explaining how phase information is eventually converted into a measurable result.
 
+----
+
 ## Study Material
 
 - [QC: A Quick Introduction for Programmers](readme.md)

@@ -36,7 +36,7 @@
 13. Let the first qubit be the control and the second qubit the target. Calculate: 
 
 $$
-    \operatorname{CNOT}
+    \text{CNOT}
     \left(
     \frac{\ket{00}+\ket{10}}{\sqrt{2}}
     \right).
@@ -48,7 +48,7 @@ $$
     \ket{00}
     \xrightarrow{H\otimes I}
     ?
-    \xrightarrow{\operatorname{CNOT}}
+    \xrightarrow{\text{CNOT}}
     ?
     $$
     Expand and simplify the state after each operation.
@@ -75,7 +75,7 @@ For the following exercises, use the ordering $\ket{q_0q_1q_2}$
     \ket{000}
     \xrightarrow{H_0}
     ?
-    \xrightarrow{\operatorname{CNOT}_{0,1}}
+    \xrightarrow{\text{CNOT}_{0,1}}
     ?
     $$
 
@@ -88,6 +88,6 @@ $$
 X_2,\qquad
 H_0,\qquad
 H_2,\qquad
-\operatorname{CNOT}_{0,2},\qquad
+\text{CNOT}_{0,2},\qquad
 H_0.
 $$
