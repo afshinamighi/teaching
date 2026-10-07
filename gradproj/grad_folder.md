@@ -33,10 +33,14 @@ readme [read me file according to the templated provided as docx or pdf]
 
 ## Professional Skills, Manage and Control
 
-This section of the graduation folder contains evidence that demonstrates how the student managed, structured, communicated, and technically controlled the graduation project. The artefacts included here should show professional behavior, informed decision-making, and reflective practice throughout the project.
+This section of the graduation folder contains evidence that demonstrates how the student manages, structures, and controls the graduation project. This includes planning and monitoring the work, communicating progress and decisions with relevant stakeholders, managing risks and changes, and adjusting the approach when necessary. The artefacts should demonstrate professional behaviour, informed decision-making, and responsibility for the progress and quality of the project.
+
+Manage and Control also concerns the technical environment and processes required to develop, test, deploy, and maintain the solution. This may include setting up and improving development and deployment environments, version control, development workflows, automated testing, CI/CD pipelines, configuration management, documentation, and monitoring. The student should demonstrate that these choices support a reliable, efficient, reproducible, and maintainable development process.
+
+The evidence should also demonstrate that the student actively evaluates and improves both the project process and the technical workflow. Through reflection, feedback, monitoring, and lessons learned, the student identifies opportunities for improvement and takes appropriate action. The artefacts should therefore show that the student maintains control over both the organizational and technical aspects of the project throughout its development.
 
 
-### Process, Workflow, Project Management
+### Project Management, Process, Workflow
 
 - **Project charter**  
   A concise description of the project’s purpose, scope, stakeholders, constraints, and success criteria, agreed upon with supervisors.
@@ -53,9 +57,10 @@ This section of the graduation folder contains evidence that demonstrates how th
 - **Product backlog**  
   A prioritized list of features, user stories, or tasks, including acceptance criteria where applicable.
 
-- **Retrospective summaries**  
-  Reflections on team performance, lessons learned, and improvement actions identified during retrospectives.
+- **Retrospectives**  
+  Evidence of retrospectives and reflections on team performance, lessons learned, and improvement actions identified during retrospectives.
 
+<!--
 - **Work breakdown structure (WBS)**  
   A hierarchical decomposition of the project scope into manageable tasks and deliverables.
 
@@ -64,7 +69,7 @@ This section of the graduation folder contains evidence that demonstrates how th
 
 - **Task estimates and time tracking logs**  
   Records comparing estimated effort with actual time spent, including reflections on deviations.
-
+-->
 ---
 
 ### Communication, Collaboration and Planning
@@ -81,6 +86,7 @@ This section of the graduation folder contains evidence that demonstrates how th
 - **Collaboration channel guidelines**  
   Agreed rules on how communication tools are used within the project.
 
+<!--
 - **Project timeline and milestones**  
   A high-level overview of planned phases, key deliverables, and deadlines.
 
@@ -101,7 +107,7 @@ This section of the graduation folder contains evidence that demonstrates how th
 
 - **Team agreements and working agreements**  
   Explicit agreements defining collaboration, communication, and decision-making practices.
-
+-->
 
 ### Version Control, CI/CD, Cloud Infrastructure
 
@@ -120,9 +126,17 @@ This section of the graduation folder contains evidence that demonstrates how th
 - **CI pipeline configuration**  
   Configuration files that automate building, testing, and validation steps.
 
+<!--
 - **CI metrics summary**  
   Collected metrics such as build times, test results, or coverage, with brief interpretation.
 
+- **Notes on image optimization and caching**  
+  Reflections on container optimization techniques applied during the project.
+
+- **Documentation on scaling, resource limits, monitoring**  
+  Evidence of considerations for performance, reliability, and observability.
+
+-->
 - **Deployment pipeline scripts**  
   Scripts that define automated deployment processes.
 
@@ -135,14 +149,10 @@ This section of the graduation folder contains evidence that demonstrates how th
 - **Docker Compose setup for local development**  
   Configuration supporting local development of multi-service applications.
 
-- **Notes on image optimization and caching**  
-  Reflections on container optimization techniques applied during the project.
 
 - **Deployment and service YAML manifests**  
   Infrastructure-as-code definitions for deployed services and applications.
 
-- **Documentation on scaling, resource limits, monitoring**  
-  Evidence of considerations for performance, reliability, and observability.
 
 - **Cloud resource provisioning notes**  
   Documentation explaining how cloud resources were created, configured, and managed.
@@ -158,7 +168,15 @@ This section of the graduation folder contains evidence that demonstrates how th
 ---
 ## Analysis
 
-This section of the graduation folder contains evidence that demonstrates how the student analyzed the problem domain, existing systems, requirements, and technical context. The artefacts should show structured thinking, informed decision-making, and a clear foundation for later design and implementation choices.
+This section of the graduation folder contains evidence that demonstrates how the student analyses and develops an understanding of the problem and its context. The purpose of the analysis is to establish a solid foundation for the decisions that will be made later in the project, particularly during design and implementation.
+
+The analysis may address different aspects of the project, including the problem domain, existing systems and solutions, stakeholder needs, functional and non-functional requirements, available data, technical constraints, and the broader technical and organizational context. Depending on the nature of the project, the student may use different methods and techniques to investigate these aspects.
+
+The artefacts should demonstrate structured and systematic thinking. They should make clear what was investigated, how relevant information was collected and evaluated, what conclusions were drawn, and how these conclusions influence the direction of the project. Assumptions, constraints, uncertainties, and important findings should be identified where relevant.
+
+Most importantly, analysis should not be performed as an isolated activity. The student should demonstrate a clear connection between the outcomes of the analysis and the decisions made later in the project. Requirements, design choices, technical decisions, and implementation priorities should be traceable back to relevant findings from the analysis.
+
+The evidence in this section should therefore demonstrate that the student can investigate a problem systematically, interpret the findings, draw well-supported conclusions, and use those conclusions as a foundation for informed design and implementation decisions.
 
 ---
 
@@ -171,10 +189,10 @@ This section of the graduation folder contains evidence that demonstrates how th
   Requirements describing quality attributes such as performance, security, usability, and reliability, expressed in measurable terms.
 
 - **System behaviour descriptions for all major interactions**  
-  Clear explanations of how the system behaves in response to user actions or external events.
+  Clear explanations of how the current system behaves in response to user actions or external events.
 
-- **Data definitions and data dictionary**  
-  Documentation of key data entities, attributes, formats, and relationships used within the system.
+- **Data definitions**  
+  Documentation of key data entities, attributes, formats, and relationships used within the previous or current system.
 
 - **Interface specifications for user interfaces, external systems, and APIs**  
   Descriptions of how users and other systems interact with the software, including inputs, outputs, and constraints.
@@ -268,11 +286,24 @@ This section of the graduation folder contains evidence that demonstrates how th
 
 ## Advice
 
+This section of the graduation folder contains evidence that demonstrates how the student advises the company or client in relation to the problem statement and the outcomes of the project. The advice should be based on the knowledge, analysis, design choices, and results developed during the graduation project. The artefacts should demonstrate structured reasoning and make clear how the student arrived at the recommendations.
+
+In general, two types of advice can be distinguished:
+
+1. Advice regarding the solution to the problem statement.
+    This type of advice explains the proposed solution and provides recommendations about how the identified problem can be addressed. The student should connect the advice to relevant findings, requirements, analyses, experiments, or other evidence from the project. The advice should make clear not only what is recommended, but also why this recommendation is appropriate for the company or client.
+2. Advice regarding the future of the project.
+    A graduation project often ends while further development is still possible or necessary. The student should therefore be able to advise the company about possible next steps. This may include recommendations for further development, implementation, maintenance, evaluation, scaling, additional research, or improvements that were outside the scope of the graduation project.
+
+The evidence in this section should demonstrate that the student can translate the results of the project into clear, well-reasoned, and actionable advice that is relevant to the company or client.
+
+---
+
 - **Opportunities for improvement report**  
-  Clearly formulated improvement opportunities derived from the analysis.
+  Clearly formulated improvement opportunities derived from the analysis and the implementation of your solution.
 
 - **Evaluation criteria and justification for chosen approach**  
-  Explicit criteria used to evaluate alternatives and reasoning behind the final choice.
+  Explicit criteria used to evaluate alternatives and reasoning behind the final choice. It must be clear why do you think you advice will improve the project.
 
 
 - **Project Process improvement proposals**  
@@ -283,9 +314,16 @@ This section of the graduation folder contains evidence that demonstrates how th
 
 
 
-[in progress]
 
 ## Design
+
+Design refers to the choices and decisions you make about how the different components of a system are structured, connected, and interact with each other in order to achieve the goals of the project. Designing is therefore not only about what components are included in a system, but also about why they are organized in a particular way and how they work together.
+
+Within this competency, the student must provide evidence of the design decisions that determine both the structure and the behaviour of the system. This includes identifying relevant components, defining their responsibilities, describing the relationships and interactions between them, and explaining the reasoning behind important design choices.
+
+Modeling (UML, C4, etc) is an effective way to make these design decisions explicit and understandable. Models and diagrams can be used to represent different aspects of the system, such as its components and their relationships, the flow of information, or the interactions that take place during a particular process. A good model should not only show what the system looks like, but should also help communicate and justify the design decisions that were made.
+
+---
 
 - **Process flow diagrams**  
   Visual representations of how work, data, or decisions flow through the project, showing structure and clarity in the applied process.
@@ -305,14 +343,34 @@ This section of the graduation folder contains evidence that demonstrates how th
 - **Interaction, workflow, or dataflow diagrams (previous system and proposed solution)**  
   Diagrams illustrating how components, users, or data interact over time.
 
+- **Test Design**
+  Systematic testing requires a well-defined test design. This includes defining what needs to be tested, the test criteria and scenarios, the test execution plan, and the expected results and acceptance criteria. A proper test design ensures that testing is structured, repeatable, and aligned with the requirements and quality goals of the project.
+
+- **Data Models**
+  High-level models and diagrams that represent the main data entities and their relationships within the proposed system. They provide an overview of how the important data concepts are organized and connected, without specifying detailed attributes or implementation-level structures.[in progress]
 
 
-
-[in progress]
 
 ## Implementation
 
-[todo]
+This section of the graduation folder contains evidence that demonstrates how the student translates the design into a working technical solution. The artefacts should demonstrate the ability to develop, integrate, test, and document software using appropriate technologies and software engineering practices. The emphasis is not only on whether the solution works, but also on the quality, correctness, maintainability, and technical depth of the implementation.
+
+---
+
+- **Source Code**
+  Relevant parts of the implemented software that demonstrate the realization of the main functionality and technically significant components. The code should be structured, readable, maintainable, and consistent with the design choices made in the project.
+
+- **Technical Scripts and Configuration**
+  Scripts and configuration files that support the implementation, such as data-processing scripts, database scripts, API integrations, build scripts, configuration files, migration scripts, or automation scripts.
+
+- **Tests and Test Results**
+  Automated or manual test implementations together with their results, demonstrating that important functionality and requirements have been systematically verified. Examples include unit, integration, system, performance, and security tests.
+
+- **Working Software and Integrated Components**
+    Evidence that the developed components have been successfully integrated into a working solution. This may include a prototype, application, API, service, database, or other executable software, together with evidence demonstrating its functionality and integration.
+
+- **Technical Documentation**
+    Documentation that explains the technically significant aspects of the implementation and enables another developer to understand and continue working with the software. This may include design patterns, interfaces and APIs, abstraction and inheritance structures, concurrency and asynchronous processing, algorithms and complex logic, data structures, error and exception handling, security mechanisms, external integrations, performance optimizations, important dependencies, and other non-trivial implementation choices. Where relevant, code fragments, technical diagrams, or references to specific parts of the source code should be used to explain these features.
 
 <!--
 ## Design
